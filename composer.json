@@ -16,8 +16,9 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "php": ">=7.1.0",
-        "yiisoft/yii2": "~2.0.0"
+        "php": ">=5.5.0",
+        "yiisoft/yii2": "~2.0.0",
+        "autoxloo/fcm": "*"
     },
     "require-dev": {
         "symfony/var-dumper": "*"
