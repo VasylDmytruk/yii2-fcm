@@ -1,6 +1,6 @@
-Yii2 wrap on [autoxloo/fcm](https://github.com/VasylDmytruk/fcm)
+Yii2 wrap of [autoxloo/fcm](https://github.com/VasylDmytruk/fcm)
 =========================
-Yii2 wrap on autoxloo/fcm
+Yii2 wrap of autoxloo/fcm
 
 Installation
 ------------
@@ -47,7 +47,7 @@ In your application config add:
 Usage
 -----
 
-Once the extension is installed, simply use it in your code by :
+Once the extension is installed, simply use it in your code by:
 
 ```php
 $token = 'device token';
@@ -73,5 +73,7 @@ $response = $fcmNotification->send([
     ]
 ]);
 ```
+
+>Note: message format will be changed.
 
 See [autoxloo/fcm](https://github.com/VasylDmytruk/fcm) for more details.

@@ -7,7 +7,7 @@ use yii\base\Component;
 use yii\base\InvalidConfigException;
 
 /**
- * Class FirebaseCMNotification Yii2 wrap on [[\autoxloo\fcm\FirebaseCloudMessaging]].
+ * Class FirebaseCMNotification Yii2 wrap of [[\autoxloo\fcm\FirebaseCloudMessaging]].
  * @see FirebaseCloudMessaging
  */
 class FirebaseCMNotification extends Component
