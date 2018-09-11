@@ -3,6 +3,7 @@
 namespace autoxloo\yii2\fcm;
 
 use autoxloo\fcm\FirebaseCloudMessaging;
+use autoxloo\fcm\message\Message;
 use yii\base\Component;
 use yii\base\InvalidConfigException;
 
@@ -54,11 +55,11 @@ class FirebaseCMNotification extends Component
     /**
      * Sends push notification.
      *
-     * @param array $message Request body to send push notification.
+     * @param Message $message Request body to send push notification.
      *
      * @return \GuzzleHttp\Psr7\Response
      */
-    public function send($message)
+    public function send(Message $message)
     {
         return $this->fcm->send($message);
     }
