@@ -10,19 +10,19 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --prefer-dist test/yii2-fcm "*"
+php composer.phar require --prefer-dist autoxloo/yii2-fcm "*"
 ```
 
 or
 
 ```
-composer require --prefer-dist test/yii2-fcm "*"
+composer require --prefer-dist autoxloo/yii2-fcm "*"
 ```
 
 or add
 
 ```
-"test/yii2-fcm": "*"
+"autoxloo/yii2-fcm": "*"
 ```
 
 to the require section of your `composer.json` file.
