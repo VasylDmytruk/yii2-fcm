@@ -2,6 +2,8 @@ Yii2 wrap of [autoxloo/fcm](https://github.com/VasylDmytruk/fcm)
 =========================
 Yii2 wrap of autoxloo/fcm
 
+>Note: This package is not supported properly
+
 Installation
 ------------
 
