@@ -57,7 +57,7 @@ class FirebaseCMNotification extends Component
      *
      * @param Message $message Request body to send push notification.
      *
-     * @return \GuzzleHttp\Psr7\Response
+     * @return \Psr\Http\Message\ResponseInterface
      */
     public function send(Message $message)
     {
