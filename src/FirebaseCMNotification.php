@@ -53,7 +53,7 @@ class FirebaseCMNotification extends Component
     }
 
     /**
-     * Sends push notification.
+     * Sends asynchronously push notification.
      *
      * @param Message $message Request body to send push notification.
      *
@@ -62,5 +62,17 @@ class FirebaseCMNotification extends Component
     public function send(Message $message)
     {
         return $this->fcm->send($message);
+    }
+
+    /**
+     * Sends push notification.
+     *
+     * @param Message $message Request body to send push notification.
+     *
+     * @return \GuzzleHttp\Promise\PromiseInterface
+     */
+    public function sendAsync(Message $message)
+    {
+        return $this->fcm->sendAsync($message);
     }
 }
