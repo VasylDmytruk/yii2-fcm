@@ -109,9 +109,9 @@ You can use target one of:
 To create use facade:
 
 ```php
-$targetToken = FCMFacade::createTargetToken('token');
-$targetTopic = FCMFacade::createTargetToken('topic');
-$targetCondition = FCMFacade::createTargetToken('condition');
+$targetToken = FCMFacade::createTargetToken('some token');
+$targetTopic = FCMFacade::createTargetTopic('some topic');
+$targetCondition = FCMFacade::createTargetConsition('some condition');
 ```
 
 See [autoxloo/fcm](https://github.com/VasylDmytruk/fcm) for more details.
